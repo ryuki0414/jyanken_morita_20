@@ -1,0 +1,77 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:left;
+    font-size: 32px;
+}
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+h1{
+    padding: 5px;/*文字周りの余白*/
+    color: #000000;/*文字色*/
+    background: rgba(55, 189, 242, 0.204);/*背景色*/
+    border-left: solid 10px rgb(55, 189, 242);/*左線（実線 太さ 色）*/
+}
+
+main{
+    /* border-bottom:1px solid #ccc; */
+}
+footer{
+    background-color: #fff;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+}
+/* p{
+    font-size:200%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    height:200px;
+} */
+ul{
+    padding: 0;
+    border-top: 1px solid #000000;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:100%;
+}
+li{
+    text-align: center;
+    list-style-type:none;
+    border: 1px solid #666;
+    background-color: #FFF;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+}
+li:hover{
+    /* opacity: 0.75; */
+    background: rgb(55, 189, 242);
+    /* color:#fff; */
+}
+
+li:active{
+    position: relative;
+    top: 3px;
+}
+
+.txt{
+    text-align: center;
+}
+
+.btncenter{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* button.btn{
+    color:#FFF;
+    background-color: aqua;
+    border-bottom: 5px solid black;
+    
+} */
+
